@@ -25,6 +25,8 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+remindMe.sqlite3
+API_token.py
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
