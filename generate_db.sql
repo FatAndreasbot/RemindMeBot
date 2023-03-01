@@ -9,7 +9,7 @@ CREATE TABLE if not EXISTS Source(
     FOREIGN key (source_id) REFERENCES Source(id) on DELETE set null
 );
 
-CREATE table Task(
+CREATE table if not exists Task(
 	id integer PRIMARY KEY autoincrement,
 	name text not null
 	CHECK(

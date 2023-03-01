@@ -26,7 +26,8 @@ share/python-wheels/
 *.egg
 MANIFEST
 remindMe.sqlite3
-API_token.py
+
+env.py
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
